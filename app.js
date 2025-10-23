@@ -54,7 +54,60 @@ const PAGES = [
     </article>`
   },
 
-  { id: 'my-songs', title: '2. My Song for You', content: placeholder('My Songs for You') },
+  { id: 'my-songs',
+        title: '2. My Song for You',
+        content: `
+          <article>
+            <h2 style='color: var(--text-color);'>Dekat di Hati - Faris</h2>
+
+                <h3 style="color: var(--brand); margin-top: 20px;">Lirik: Dekat di Hati - faris</h3>
+                <p> https://www.youtube.com/shorts/UHooG-v4rKo 
+                <p>
+                <p>
+                    <b>[Verse 1]</b><br>
+                    Ku lihat senyummu
+                    Di sana
+                    Di kala senja
+                    Oh mengapa
+
+                </p>
+
+                <p>
+                    <b>[PreChorus]</b><br>
+                    Hati ini bicara<br>
+                    Tentang cinta<br>
+
+                </p>
+
+                <p>
+                    <b>[Chorus]</b><br>
+                    Dekat di hati<br>
+                    Kau ada di sini<br>
+                    Dekat di hati<br>
+                    Selalu menanti
+                </p>
+                <p>
+                    <b>[Verse 2]</b><br>
+                    Kau datang padaku<br>
+                    Membawa harapan baru<br>
+                    Cinta yang kurindu<br>
+                    Bersamamu
+                </p>
+                <p>
+                    <b>[PreChorus]</b><br>
+                    Hati ini bicara<br>
+                    Tentang cinta
+                </p>
+                <p>
+                    <b>[Chorus]</b><br>
+                    Dekat di hati<br>
+                    Kau ada di sini<br>
+                    Dekat di hati<br>
+                    Selalu menanti
+                </p>
+                </p>
+          </article>`
+      },
 
   { id: 'my-stories',
     title: '3. My Stories for You',
@@ -209,7 +262,14 @@ const PAGES = [
     </article>`
   },
 
-  { id: 'personal-reviews', title: '5 My Personal Reviews', content: placeholder('My Personal Reviews') },
+  { id: 'personal-reviews', title: '5 My Personal Reviews', 
+    content: `
+    <article>
+      <section style="max-width:800px;margin:auto;line-height:1.7;">
+            <p><a href="https://docs.google.com/spreadsheets/d/1iSByUbGM7iCIk9Jq4fGIp_QTRBDQdjxaonHq9KNEID4/edit?usp=sharing">Link Penilaian Self Assessment</a></p>
+            <p><a href="https://chatgpt.com/share/68f99dbf-f52c-8001-8dbe-7936f7c7bd7d">Link Chat Penilaian AI</a></p>`
+  },
+
   { id: 'my-concepts', title: '6 My Concepts', content: placeholder('My Concepts') },
   { id: 'my-opinions', title: '7 My Opinions', content: placeholder('My Opinions') },
   { id: 'my-innovations', title: '8 My Innovations', content: placeholder('My Innovations') },
