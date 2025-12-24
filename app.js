@@ -153,7 +153,6 @@ const PAGES = [
     title: '4 My Shapes',
     content: `
     <article>
-      <!-- Narasi SHAPE -->
       <section style="max-width:850px;margin:auto;line-height:1.8;text-align:justify;">
         <h2 style="text-align:center;color:var(--brand);margin-bottom:8px">
           MY SHAPE – Piagam Diri (Personal Charter)
@@ -177,7 +176,7 @@ const PAGES = [
         </p>
 
         <h3 style="color:var(--accent);margin-top:28px;">P – Personality (Profil Kepribadian)</h3>
-        <p>Saya cenderung tenang dan reflektif, lebih suka berpikir sejenak sebelum bicara. Struktur yang jelas membuat saya nyaman, tetapi saya cukup fleksibel mengikuti dinamika proses. Dalam tim, saya sering berperan sebagai pendengar yang merangkai ide-ide dan menjembatani bagian yang terputus. Saat dibutuhkan, saya bisa menyampaikan pesan secara lugas, tetap menjaga empati agar orang yang diajak bicara merasa dihormati.
+        <p>Saya cenderung tenang and reflektif, lebih suka berpikir sejenak sebelum bicara. Struktur yang jelas membuat saya nyaman, tetapi saya cukup fleksibel mengikuti dinamika proses. Dalam tim, saya sering berperan sebagai pendengar yang merangkai ide-ide dan menjembatani bagian yang terputus. Saat dibutuhkan, saya bisa menyampaikan pesan secara lugas, tetap menjaga empati agar orang yang diajak bicara merasa dihormati.
         </p>
 
         <h3 style="color:var(--accent);margin-top:28px;">E – Experiences (Pengalaman Hidup)</h3>
@@ -196,7 +195,6 @@ const PAGES = [
         </blockquote>
       </section>
 
-      <!-- Tabel Ringkasan SHAPE -->
       <div class="shape-wrap">
         <div class="shape-caption">Tabel – Piagam Diri (Self Charter) dan Identitas Naratif</div>
         <div style="overflow-x:auto;">
@@ -239,7 +237,7 @@ const PAGES = [
               <tr>
                 <th>P – Personality<br><small>(Profil Kepribadian)</small></th>
                 <td>
-                  Saya tenang dan reflektif, cenderung berpikir sebelum berbicara. Saya menyukai struktur yang jelas namun tetap fleksibel pada proses. Dalam tim, saya sering menjadi pendengar yang merangkai ide dan penghubung antarbagi­an. Saat perlu, saya berbicara lugas sambil menjaga empati.
+                  Saya tenang and reflektif, cenderung berpikir sebelum berbicara. Saya menyukai struktur yang jelas namun tetap fleksibel pada proses. Dalam tim, saya sering menjadi pendengar yang merangkai ide dan penghubung antarbagi­an. Saat perlu, saya berbicara lugas sambil menjaga empati.
                 </td>
                 <td>
                   Ketika rapat memanas, saya berhenti sejenak, memparafrasekan inti masalah, lalu menawarkan langkah berikut yang konkret. Pada OHU TEC, saya membantu mengurai hambatan logistik dengan mengubah prioritas, jalur, dan penugasan secara cepat tetapi terarah.
@@ -270,12 +268,325 @@ const PAGES = [
             <p><a href="https://chatgpt.com/share/68f99dbf-f52c-8001-8dbe-7936f7c7bd7d">Link Chat Penilaian AI</a></p>`
   },
 
-  { id: 'my-concepts', title: '6 My Concepts', content: placeholder('My Concepts') },
-  { id: 'my-opinions', title: '7 My Opinions', content: placeholder('My Opinions') },
-  { id: 'my-innovations', title: '8 My Innovations', content: placeholder('My Innovations') },
-  { id: 'my-knowledge', title: '9 My Knowledge', content: placeholder('My Knowledge') },
+  { id: 'my-concepts', 
+    title: '6 My Concepts', 
+    content: `
+    <article>
+      <section style="max-width:1000px;margin:auto;">
+        <div style="background:var(--accent); color:white; padding:40px; border-radius:20px; margin-bottom:30px; text-align:center;">
+          <h2 style="margin:0; font-size:32px; letter-spacing:1px;">TEKNOLOGI SEBAGAI JEMBATAN KEMANUSIAAN</h2>
+          <p style="opacity:0.9; margin-top:10px; font-weight:300;">Paradigma Interseksi Informatika, Bisnis, dan Resiliensi Sosial</p>
+          <div style="margin-top:20px; font-family:serif; font-style:italic; font-size:1.2rem;">
+            $$Success = \\frac{Access \\times Literacy}{Infrastructure \\times Barriers}$$
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:25px; line-height:1.6;">
+          
+          <div style="background:white; padding:25px; border-radius:15px; border-left:5px solid var(--brand); box-shadow:0 4px 15px rgba(0,0,0,0.05);">
+            <h3 style="color:var(--brand); margin-top:0;">I. Scalable Ubiquitous Education (EdTech 4.0)</h3>
+            <p>Menghadapi tantangan <b>10% populasi dunia yang buta huruf</b>, konsep saya beralih dari sekadar digitalisasi materi ke <i>Adaptive Learning Ecosystems</i>.</p>
+            <ul style="padding-left:18px; font-size:0.95rem;">
+              <li><b>Algoritma Personalisasi:</b> Menggunakan AI untuk menyesuaikan kurikulum berdasarkan kecepatan kognitif individu.</li>
+              <li><b>Low-Bandwidth Optimization:</b> Arsitektur aplikasi <i>offline-first</i> untuk menjangkau daerah dengan infrastruktur internet terbatas.</li>
+              <li><b>LMS Terdesentralisasi:</b> Menghapus hambatan geografis agar literasi menjadi komoditas global yang terdistribusi secara MECE.</li>
+            </ul>
+          </div>
+
+          <div style="background:white; padding:25px; border-radius:15px; border-left:5px solid var(--mid); box-shadow:0 4px 15px rgba(0,0,0,0.05);">
+            <h3 style="color:var(--brand); margin-top:0;">II. Distributed Humanitarian Resilience</h3>
+            <p>Dengan <b>25% penduduk dunia yang tinggal di wilayah konflik</b>, informatika harus menjadi lapisan pelindung melalui <i>Crisis Mapping</i> dan keamanan data.</p>
+            <ul style="padding-left:18px; font-size:0.95rem;">
+              <li><b>Real-time Crisis Mapping:</b> Fusi data sensorik (GPS) dan sosial untuk optimasi rute evakuasi darurat secara presisi.</li>
+              <li><b>Biometric Encryption:</b> Perlindungan identitas pengungsi melalui database terenkripsi untuk mencegah eksploitasi data.</li>
+              <li><b>Fault-Tolerant Systems:</b> Penggunaan <i>Mesh Networks</i> agar koordinasi bantuan tetap berjalan meski infrastruktur fisik lumpuh.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div style="margin-top:30px; padding:20px; background:rgba(35,76,106,0.05); border-radius:12px; border:1px dashed var(--brand);">
+          <h4 style="margin:0; color:var(--brand);">Sintesis Konseptual:</h4>
+          <p style="margin-top:10px; font-size:0.95rem;">Informatika bukan sekadar baris kode, melainkan sebuah <b>Enabler</b>. Melalui pendekatan sistematis, kita dapat mentransformasi data mentah dari zona krisis menjadi langkah strategis yang menyelamatkan nyawa, sekaligus memastikan akses pendidikan universal untuk memutus rantai kemiskinan ekstrem sebesar 8,5% di seluruh dunia.</p>
+        </div>
+      </section>
+    </article>` 
+  },
+
+{ id: 'my-opinions', 
+    title: '7 My Opinions', 
+    content: `
+    <article>
+      <section style="max-width:1000px;margin:auto;">
+        <div style="border-bottom: 2px solid var(--brand); padding-bottom: 10px; margin-bottom: 30px;">
+          <h2 style="color:var(--brand); margin-bottom:5px;">POSISI FILOSOFIS: EMPATI DI ATAS ALGORITMA</h2>
+          <p style="color:var(--muted); font-style:italic;">Sebuah Tinjauan Kritis Terhadap Etika Digital dan Kedaulatan Data</p>
+        </div>
+
+        <div style="background:var(--panel); padding:20px; border-radius:12px; text-align:center; margin-bottom:30px; border:1px solid var(--line);">
+          <p style="margin-bottom:10px; font-weight:600; color:var(--accent);">Ethical Tech Impact (ETI) Framework:</p>
+          <div style="font-size:1.3rem; font-family:serif;">
+            $$ETI = \int (Utility \times Inclusion) \, d(Context) - Risk_{surveillance}$$
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr; gap:30px;">
+          
+          <div style="line-height:1.8;">
+            <h3 style="color:var(--accent); display:flex; align-items:center; gap:10px;">
+              <span style="background:var(--brand); color:white; padding:5px 12px; border-radius:5px; font-size:1rem;">01</span>
+              Dekonstruksi Meritokrasi Digital dalam Pendidikan
+            </h3>
+            <p>
+              Seringkali terdapat narasi bahwa EdTech adalah solusi instan untuk buta huruf global. Namun, opini saya adalah <b>teknologi tanpa infrastruktur inklusif justru memperlebar jurang ketimpangan</b>. Dengan 750 juta orang dewasa yang masih buta huruf dan hampir 250 juta anak tidak bersekolah pada 2024, implementasi <i>AI-driven learning</i> yang hanya bisa diakses perangkat <i>high-end</i> adalah kegagalan desain. Kita harus berhenti memuja kecanggihan dan mulai fokus pada <i>minimal viable connectivity</i>, terutama di wilayah seperti Afrika Sub-Sahara di mana tingkat literasi dewasa masih di bawah 33%.
+            </p>
+          </div>
+
+          <div style="line-height:1.8;">
+            <h3 style="color:var(--accent); display:flex; align-items:center; gap:10px;">
+              <span style="background:var(--brand); color:white; padding:5px 12px; border-radius:5px; font-size:1rem;">02</span>
+              Kedaulatan Data Pengungsi: Hak Asasi Manusia Baru
+            </h3>
+            <p>
+              Saat ini terdapat 122,6 juta orang yang terpaksa mengungsi akibat konflik. Penggunaan biometrik dalam manajemen pengungsi sering kali dipasarkan sebagai "efisiensi bantuan". Opini akademis saya adalah bahwa <b>data pengungsi harus diperlakukan sebagai kedaulatan individu</b>, bukan aset organisasi. Tanpa enkripsi yang bersifat <i>decentralized</i>, database pengungsi yang terkonsentrasi di negara-negara tertentu berisiko menjadi alat pengawasan yang mengeksploitasi kelompok rentan. Teknologi harus berfungsi sebagai perisai (<i>shield</i>), bukan radar pemantau tanpa izin.
+            </p>
+          </div>
+
+          <div style="line-height:1.8;">
+            <h3 style="color:var(--accent); display:flex; align-items:center; gap:10px;">
+              <span style="background:var(--brand); color:white; padding:5px 12px; border-radius:5px; font-size:1rem;">03</span>
+              Resiliensi Siber sebagai Fondasi Pertahanan Modern
+            </h3>
+            <p>
+              Dengan 2 miliar penduduk dunia yang tinggal di wilayah terdampak konflik, bentuk peperangan telah bergeser. PBB mencatat jumlah konflik aktif tertinggi sejak Perang Dunia II. Dalam konteks ini, saya berpendapat bahwa <b>keamanan nasional saat ini lebih bergantung pada integritas kode daripada kekuatan kinetik</b>. <i>Cybersecurity</i> bukan lagi sekadar departemen IT, melainkan kebutuhan primer untuk stabilitas sosial. Ketidaksetaraan ekonomi di mana 1% orang terkaya menguasai 43% kekayaan global menciptakan kerentanan sosial yang mudah dieksploitasi melalui perang informasi digital.
+            </p>
+          </div>
+
+        </div>
+
+        <div style="margin-top:40px; padding:25px; background:var(--brand); color:white; border-radius:15px; text-align:center;">
+          <p style="font-size:1.1rem; margin:0;">
+            "Tugas kita sebagai insan informatika bukan hanya membuat sistem yang pintar (smart), tetapi sistem yang adil (just). Kemajuan teknologi harus diukur dari seberapa banyak beban manusia yang berkurang, bukan dari seberapa rumit algoritma yang kita ciptakan."
+          </p>
+        </div>
+      </section>
+    </article>` 
+  },
+
+{ id: 'my-innovations', 
+    title: '8 My Innovations', 
+    content: `
+    <article>
+      <section style="max-width:1000px;margin:auto;">
+        <h2 style="color:var(--brand); text-align:center; margin-bottom:40px;">BLUEPRINT INOVASI STRATEGIS</h2>
+
+        <div style="background:white; border-radius:20px; padding:30px; margin-bottom:40px; box-shadow:0 10px 30px rgba(0,0,0,0.05); border:1px solid var(--line);">
+          <h3 style="color:var(--accent); margin-top:0;">1. Geo-Sentiment Crisis Mapping (GCM)</h3>
+          <p style="font-size:0.95rem;">Sistem mitigasi untuk <b>2 miliar orang di zona konflik</b> dengan menggabungkan NLP (Natural Language Processing) dan Geofencing.</p>
+          
+          <div style="margin:20px 0; background:#f8f9fa; padding:20px; border-radius:12px; display:flex; justify-content:space-around; align-items:center; position:relative; overflow:hidden;">
+            <div style="text-align:center; z-index:2;">
+              <div style="background:var(--brand); color:white; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:10px;">Data</div>
+              <small>Social/GPS</small>
+            </div>
+            <div class="flow-arrow"></div>
+            <div style="text-align:center; z-index:2;">
+              <div style="background:var(--mid); color:white; width:60px; height:60px; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:10px;">AI</div>
+              <small>Sentiment</small>
+            </div>
+            <div class="flow-arrow"></div>
+            <div style="text-align:center; z-index:2;">
+              <div style="background:#2ecc71; color:white; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:10px;">Route</div>
+              <small>Evacuation</small>
+            </div>
+          </div>
+          <p style="font-size:0.85rem; color:var(--muted);"><b>Technical Detail:</b> Menggunakan algoritma Dijkstra untuk <i>real-time pathfinding</i> berdasarkan densitas ancaman yang dideteksi dari sentimen negatif di media sosial.</p>
+        </div>
+
+        <div style="background:white; border-radius:20px; padding:30px; margin-bottom:40px; box-shadow:0 10px 30px rgba(0,0,0,0.05); border:1px solid var(--line);">
+          <h3 style="color:var(--accent); margin-top:0;">2. Edge-Distributed Learning System (EDLS)</h3>
+          <p style="font-size:0.95rem;">Solusi inklusivitas untuk <b>250 juta anak putus sekolah</b> di wilayah dengan infrastruktur rendah.</p>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px; margin:20px 0;">
+            <div style="background:var(--bg); padding:15px; border-radius:10px;">
+              <h4 style="margin:0; font-size:0.9rem;">Offline-First Architecture</h4>
+              <p style="font-size:0.8rem; margin-top:5px;">Service Workers & IndexedDB untuk caching konten materi tanpa internet stabil.</p>
+            </div>
+            <div style="background:var(--bg); padding:15px; border-radius:10px;">
+              <h4 style="margin:0; font-size:0.9rem;">Mesh-Peer Sync</h4>
+              <p style="font-size:0.8rem; margin-top:5px;">Distribusi data antar perangkat via Bluetooth/Local WiFi di daerah terpencil.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background:var(--accent); color:white; border-radius:20px; padding:30px; box-shadow:0 10px 30px rgba(0,0,0,0.15);">
+          <h3 style="margin-top:0;">3. Sovereign Identity for Displaced Persons</h3>
+          <p style="font-size:0.95rem; opacity:0.9;">Melindungi <b>122,6 juta pengungsi</b> dari kehilangan identitas legal akibat kehancuran infrastruktur fisik negara asal.</p>
+          
+          <div style="border:1px dashed rgba(255,255,255,0.3); padding:20px; border-radius:12px; margin:15px 0;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:monospace;">[Decentralized ID]</span>
+              <span style="font-size:1.5rem;">⛓️</span>
+              <span style="font-family:monospace;">[Encrypted Health Record]</span>
+            </div>
+          </div>
+          <p style="font-size:0.85rem; opacity:0.8;"><b>Philosophy:</b> Menempatkan kontrol data sepenuhnya di tangan individu melalui <i>Zero-Knowledge Proofs</i>, sehingga bantuan logistik tepat sasaran tanpa melanggar privasi.</p>
+        </div>
+      </section>
+
+      <style>
+        .flow-arrow {
+          width: 40px;
+          height: 2px;
+          background: #ddd;
+          position: relative;
+        }
+        .flow-arrow::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: -4px;
+          border: 5px solid transparent;
+          border-left-color: #ddd;
+        }
+        @keyframes flow {
+          0% { left: -100%; }
+          100% { left: 100%; }
+        }
+        .flow-arrow::before {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 100%;
+          background: linear-gradient(90deg, transparent, var(--brand), transparent);
+          animation: flow 2s infinite;
+        }
+      </style>
+    </article>` 
+  },
+
+{ id: 'my-knowledge', 
+    title: '9 My Knowledge', 
+    content: `
+    <article>
+      <section style="max-width:1000px;margin:auto;">
+        <h2 style="color:var(--brand); text-align:center; margin-bottom:10px;">KNOWLEDGE DOMAIN MAPPING</h2>
+        <p style="text-align:center; color:var(--muted); margin-bottom:40px;">Sintesis Kompetensi Teknikal dalam Menanggapi Krisis Global 2025</p>
+
+        <div style="display:grid; grid-template-columns: 1fr; gap:25px;">
+          
+          <div style="background:white; border-radius:15px; padding:25px; border:1px solid var(--line); box-shadow:0 4px 12px rgba(0,0,0,0.03);">
+            <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:15px;">
+              <h3 style="color:var(--brand); margin:0;">I. Cyber-Defense & Information Security</h3>
+              <span style="background:rgba(231,76,60,0.1); color:#e74c3c; padding:4px 12px; border-radius:20px; font-size:0.8rem; font-weight:600;">Urgency: High</span>
+            </div>
+            <p style="font-size:0.95rem;">Fokus pada perlindungan infrastruktur digital kritis bagi <b>2 miliar orang (25% populasi)</b> yang tinggal di wilayah terdampak konflik.</p>
+            <ul style="font-size:0.9rem; line-height:1.6;">
+              <li><b>Zero-Trust Architecture:</b> Prinsip keamanan untuk melindungi data identitas <b>122,6 juta pengungsi</b> agar tidak disalahgunakan untuk pengawasan (surveillance).</li>
+              <li><b>Cryptography & End-to-End Encryption (E2EE):</b> Implementasi protokol keamanan data pada sistem komunikasi darurat di zona krisis.</li>
+              <li><b>Cyberwarfare Mitigation:</b> Pengetahuan taktis dalam mendeteksi dan menangani intrusi pada sistem informasi vital negara guna menjaga stabilitas sosial.</li>
+            </ul>
+          </div>
+
+          <div style="background:white; border-radius:15px; padding:25px; border:1px solid var(--line); box-shadow:0 4px 12px rgba(0,0,0,0.03);">
+            <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:15px;">
+              <h3 style="color:var(--brand); margin:0;">II. Data Science & Predictive Analytics</h3>
+              <span style="background:rgba(52,152,219,0.1); color:#3498db; padding:4px 12px; border-radius:20px; font-size:0.8rem; font-weight:600;">Urgency: Critical</span>
+            </div>
+            <p style="font-size:0.95rem;">Optimasi sumber daya untuk mengatasi <b>60% populasi yang mengalami penurunan kesejahteraan</b> dan <b>733 juta orang yang kelaparan kronis</b>.</p>
+            <ul style="font-size:0.9rem; line-height:1.6;">
+              <li><b>Predictive Modeling:</b> Menggunakan Python untuk memproyeksikan kebutuhan logistik pangan bagi <b>1 dari 11 penduduk dunia</b> yang menderita kekurangan gizi.</li>
+              <li><b>MECE Problem Solving:</b> Kerangka analisis untuk mengurai masalah kompleks seperti kemiskinan ekstrem yang menimpa <b>700 juta jiwa</b> agar bantuan lebih tepat sasaran.</li>
+              <li><b>Large-scale Demographic Analysis:</b> Pengolahan dataset besar untuk memonitor ketimpangan kekayaan global di mana <b>1% elit menguasai 43% harta dunia</b>.</li>
+            </ul>
+          </div>
+
+          <div style="background:white; border-radius:15px; padding:25px; border:1px solid var(--line); box-shadow:0 4px 12px rgba(0,0,0,0.03);">
+            <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:15px;">
+              <h3 style="color:var(--brand); margin:0;">III. Geospatial & Environmental Informatics</h3>
+              <span style="background:rgba(46,204,113,0.1); color:#2ecc71; padding:4px 12px; border-radius:20px; font-size:0.8rem; font-weight:600;">Urgency: Global Risk</span>
+            </div>
+            <p style="font-size:0.95rem;">Monitoring bagi <b>3,6 miliar orang</b> yang sangat rentan terhadap guncangan iklim dan <b>2 miliar orang tanpa akses air bersih</b>.</p>
+            
+            <ul style="font-size:0.9rem; line-height:1.6;">
+              <li><b>GIS (Geographic Information Systems):</b> Pemetaan daerah berisiko tinggi bencana cuaca ekstrem yang mengancam <b>4,5 miliar penduduk bumi</b>.</li>
+              <li><b>Hydrological Modeling:</b> Pengetahuan teknis untuk memantau sanitasi dan ketersediaan air minum aman bagi <b>26% populasi dunia</b>.</li>
+              <li><b>Satellite Imagery Analysis:</b> Pendeteksian degradasi lingkungan dan polusi udara berbahaya yang dihirup oleh <b>99% umat manusia</b>.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div style="margin-top:40px; text-align:center; padding:20px; border-top:1px solid var(--line);">
+          <div style="font-family:serif; font-style:italic; color:var(--muted); font-size:1.1rem;">
+            "Data is the instrument, but human welfare is the symphony."
+          </div>
+          <p style="font-size:0.85rem; color:var(--muted); margin-top:5px;">— Refleksi Teknis Muhammad Faris Daffa terhadap Agenda SDG 2030</p>
+        </div>
+      </section>
+    </article>` 
+  },
+
   { id: 'pro-reviews', title: '10 My Professional Reviews', content: placeholder('My Professional Reviews') },
-  { id: 'summary', title: '11 Summary', content: placeholder('Summary') },
+{ id: 'summary', 
+    title: '11 Summary', 
+    content: `
+    <article>
+      <section style="max-width:1000px;margin:auto;">
+        <div style="background: linear-gradient(135deg, var(--brand), var(--accent)); color:white; padding:50px; border-radius:20px; text-align:center; margin-bottom:40px; box-shadow:0 15px 35px rgba(35,76,106,0.2);">
+          <h2 style="margin:0; font-size:36px; letter-spacing:2px;">SINTESIS STRATEGIS: TECH FOR HUMANITY</h2>
+          <p style="opacity:0.9; margin-top:15px; font-size:1.1rem; font-weight:300; max-width:700px; margin-left:auto; margin-right:auto;">
+            Menavigasi Tantangan Global 2025 Melalui Interseksi Informatika, Etika, dan Inovasi Pragmatis.
+          </p>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr; gap:40px; line-height:1.8;">
+          
+          <div>
+            <h3 style="color:var(--brand); border-bottom:1px solid var(--line); padding-bottom:10px;">I. Realitas Global & Urgensi Data</h3>
+            <p>
+              Dengan proyeksi populasi mencapai <b>8,2 miliar jiwa pada 2025</b>, dunia menghadapi krisis kompleksitas yang tidak pernah terjadi sebelumnya. Dari <b>700 juta orang dalam kemiskinan ekstrem</b> hingga <b>99% populasi yang menghirup udara tidak sehat</b>, tantangan ini bukan sekadar angka statistik, melainkan kegagalan sistemik dalam distribusi akses dan keadilan. Posisi saya sebagai akademisi STI adalah memastikan bahwa data tidak berhenti menjadi tumpukan angka, melainkan ditransformasikan menjadi instrumen kebijakan yang presisi.
+            </p>
+          </div>
+
+          <div>
+            <h3 style="color:var(--brand); border-bottom:1px solid var(--line); padding-bottom:10px;">II. Informatika Sebagai "Strategic Enabler"</h3>
+            <p>
+              Melalui navigasi portofolio ini, saya telah memetakan bahwa solusi masa depan terletak pada tiga pilar utama:
+            </p>
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:15px;">
+              <div style="background:var(--panel); padding:20px; border-radius:12px; border:1px solid var(--line);">
+                <strong style="color:var(--accent);">Konsep:</strong> Jembatan kemanusiaan melalui <i>Decentralized Systems</i> dan <i>Adaptive Learning</i>.
+              </div>
+              <div style="background:var(--panel); padding:20px; border-radius:12px; border:1px solid var(--line);">
+                <strong style="color:var(--accent);">Opini:</strong> Menempatkan empati di atas algoritma untuk melindungi kedaulatan data kelompok rentan.
+              </div>
+              <div style="background:var(--panel); padding:20px; border-radius:12px; border:1px solid var(--line);">
+                <strong style="color:var(--accent);">Inovasi:</strong> Blueprint teknis seperti <i>Crisis Mapping 2.0</i> dan <i>Blockchain-based Identity</i>.
+              </div>
+            </div>
+          </div>
+
+          <div style="background:rgba(35,76,106,0.03); padding:30px; border-radius:15px; border-left:5px solid var(--brand);">
+            <h3 style="color:var(--brand); margin-top:0;">III. Refleksi & Komitmen Masa Depan</h3>
+            <p>
+              Pernyataan misi pribadi saya tetap teguh: <b>"Kemaslahatan manusia nomor 1"</b>. Saya berkomitmen untuk terus mengembangkan kompetensi di bidang <i>Cybersecurity</i>, <i>Data Science</i>, dan <i>Geospatial Tech</i> bukan untuk membangun teknologi yang eksklusif, melainkan teknologi yang mempermudah hidup satu ibu pemilik laundry, satu anak di daerah konflik, dan satu pengungsi yang kehilangan identitasnya. 
+            </p>
+          </div>
+
+        </div>
+
+        <div style="margin-top:50px; text-align:center; padding:40px; border:1px solid var(--line); border-radius:20px;">
+          <p style="color:var(--muted); font-size:0.9rem; margin-bottom:20px;">THE FINAL LOGIC:</p>
+          <div style="font-size:1.5rem; font-family:serif; color:var(--accent);">
+            $$Impact = \\lim_{Infrastructure \\to \\infty} \\left( \\frac{Humanity \\times Informatics}{Complexity} \\right)$$
+          </div>
+          <p style="margin-top:20px; font-weight:700; color:var(--brand);">MUHAMMAD FARIS DAFFA</p>
+          <small style="color:var(--muted);">Sistem dan Teknologi Informasi - ITB</small>
+        </div>
+      </section>
+    </article>` 
+  },
   { id: 'references', title: 'References', content: placeholder('References') },
 ];
 
@@ -294,7 +605,7 @@ function selamatBerjumpa() {
       <div class='hero'>
         <div class='copy'>
           <h2>Aksi nyata untuk Masyarakat dan dunia!</h2>
-          <p>Business and Data Enthusiast yang suka banget main di bidang circular economi untuk kemajuan anak bangsa !</p>
+          <p>Business and Data Enthusiast yang suka banget main di bidang circular ekonomi untuk kemajuan anak bangsa !</p>
         </div>
         <div class='img' style="background: url('assets/Proper Photo Faris.jpg') center/cover no-repeat; border: none;"></div>
       </div>
@@ -311,7 +622,6 @@ const toc = document.getElementById('toc');
 const contentEl = document.getElementById('page-content');
 const titleEl = document.getElementById('page-title');
 
-/* ======= INDEX KONTEN UNTUK SEARCH ======= */
 const CONTENT_INDEX = Object.fromEntries(
   PAGES.map(p => {
     const div = document.createElement('div');
@@ -358,10 +668,19 @@ function navigate(id) {
     addParagraphTabs(contentEl, '3em');
   }
 
+  if (window.renderMathInElement) {
+    renderMathInElement(contentEl, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+      ],
+      throwOnError : false
+    });
+  }
+
   const q = (document.getElementById('search').value || '').trim().toLowerCase();
   if(q) highlightInElement(contentEl, q);
 }
-
 
 
 // escape regex special chars
@@ -639,6 +958,17 @@ document.addEventListener("DOMContentLoaded", () => {
         isDeleting = false;
         setTimeout(step, typingSpeed);
       }
+    }
+  }
+
+  function renderLatex() {
+    if (window.renderMathInElement) {
+      window.renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+          {left: "$", right: "$", display: false}
+        ]
+      });
     }
   }
 
